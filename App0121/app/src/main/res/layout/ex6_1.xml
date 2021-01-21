@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFCCCCCC">
+
+    <!--FrameLayout에 올려지는 모든 뷰는, 좌측 상단 기준 배치됨.중첩-->
+
+    <LinearLayout
+        android:layout_margin="50dp"
+        android:background="#F4D8F9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="100dp"
+        android:background="#FFFFDD00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+    <View
+        android:layout_margin="150dp"
+        android:background="#D0DA5B"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
