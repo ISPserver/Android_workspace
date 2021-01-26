@@ -27,14 +27,6 @@ public class BoardAdapter extends BaseAdapter {
         this.mainActivity=mainActivity;
         layoutInflater = mainActivity.getLayoutInflater();
 
-        data.add("사과");
-        data.add("바나나");
-        data.add("딸기");
-        data.add("오렌지");
-        data.add("파인애플");
-        data.add("멜론");
-        data.add("레몬");
-        data.add("귤");
     }
 
     @Override
