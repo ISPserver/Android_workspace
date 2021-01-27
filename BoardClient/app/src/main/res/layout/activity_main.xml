@@ -7,27 +7,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--등록관련-->
+    <!--등록관련 -->
     <EditText
-        android:hint="제목입력.."
+        android:id="@+id/t_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:hint="제목입력..." />
 
     <EditText
-        android:hint="작성자입력.."
+        android:id="@+id/t_writer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:hint="작성자입력..." />
 
     <EditText
-        android:hint="내용입력.."
+        android:id="@+id/t_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:hint="내용입력..." />
 
     <LinearLayout
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:layout_gravity="center_horizontal"
             android:text="글등록"
@@ -44,7 +48,7 @@
             android:onClick="getList"/>
     </LinearLayout>
 
-    <!--데이터를 목록으로 보여주는 전용 뷰(ListView,GridView,Spinner-->
+    <!-- 데이터를 목록으로 보여주는 전용 뷰(ListView, GridView, Spinner)-->
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
